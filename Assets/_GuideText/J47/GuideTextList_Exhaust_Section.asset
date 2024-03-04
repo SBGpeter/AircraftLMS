@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba11c9a4b4a274f21a59216a5f0706b6, type: 3}
+  m_Name: GuideTextList_Exhaust_Section
+  m_EditorClassIdentifier: 
+  guideLists:
+  - guideTitle: "\uBC30\uAE30 \uCF58 (Exhaust cone)"
+    guideDescription: "\uBC30\uAE30\uAC00\uC2A4\uC758 \uD750\uB984\uC744 \uC815\uB958\uD558\uC5EC
+      \uC640\uB958\uB97C \uBC29\uC9C0\uD558\uBA70 \uAD6C\uC131\uC740 \uB0B4\uBD80\uCF58\uACFC
+      \uC678\uBD80\uCF58\uC774 4\uAC1C\uC758 \uBC29\uC0AC\uD615 \uC9C0\uC9C0\uB300\uB85C
+      \uC9C0\uC9C0\uB418\uC5B4 \uC788\uB294 \uAD6C\uC870\uC785\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 1eeca6bbe3da04eef84fd9d775eb0a07,
+      type: 3}
+  - guideTitle: "\uBC30\uAE30 \uAD00 (Tail pipe)"
+    guideDescription: "4\uAC1C\uC758 \uC5F4\uC804\uC30D\uC744 \uBCD1\uB82C\uB85C
+      \uC5F0\uACB0\uD558\uC5EC \uBC30\uAE30\uAC00\uC2A4 \uC628\uB3C4\uB97C \uCE21\uC815\uD558\uACE0,
+      \uBC30\uAE30\uB178\uC990 \uBD80\uBD84\uC5D0 \uC138\uADF8\uBA58\uD2B8\uB97C
+      \uBD80\uCC29\uD558\uAC70\uB098 \uB5BC\uC5B4 \uB0B4\uC5B4 \uBC30\uAE30\uB178\uC990
+      \uBA74\uC801\uC744 \uC870\uC808\uD558\uBBC0\uB85C\uC368 \uBC30\uAE30\uAC00\uC2A4
+      \uC628\uB3C4\uB97C \uC870\uC808\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 70e087a2f80d048588453a42049bb3ea,
+      type: 3}

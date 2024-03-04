@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba11c9a4b4a274f21a59216a5f0706b6, type: 3}
+  m_Name: GuideTextList_AirInlet_Section
+  m_EditorClassIdentifier: 
+  guideLists:
+  - guideTitle: "\uC8FC \uAE30\uC5B4 \uCF00\uC774\uC2A4(Main gear case)"
+    guideDescription: "\uC555\uCD95\uAE30 \uC804\uBC29 \uD504\uB808\uC784\uC758 \uC55E\uCABD\uC5D0
+      \uC704\uCE58\uD558\uBA70, \uAC01\uC885 \uC561\uC138\uC11C\uB9AC\uB85C \uC9C1\uC811
+      \uBD80\uCC29\uB418\uB294 \uBD80\uD488\uC740 \uC8FC\uC5F0\uB8CC \uC870\uC808\uAE30,
+      \uC5F0\uB8CC \uD38C\uD504, \uC724\uD65C \uBC0F \uBC30\uC720 \uD38C\uD504\uAC00
+      \uC788\uACE0, \uAC04\uC811 \uBD80\uCC29\uB418\uB294 \uBD80\uD488\uC740 \uACE0\uC555\uC5F0\uB8CC
+      \uC5EC\uACFC\uAE30, \uC5F0\uB8CC \uC81C\uC5B4\uBC38\uBE0C\uAC00 \uC788\uC2B5\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: c55043d473a3744dbba8f94f0e5ae026,
+      type: 3}
+  - guideTitle: "\uBCF4\uC870 \uAE30\uC5B4 \uCF00\uC774\uC2A4(Auxiliary gear case)"
+    guideDescription: "\uC8FC \uAE30\uC5B4 \uCF00\uC774\uC2A4 \uC804\uBC29\uC5D0
+      \uBD80\uCC29\uB418\uACE0, 2\uAC1C\uC758 \uC720\uC555\uD38C\uD504\uB97C \uAD6C\uB3D9\uD558\uBA70,
+      \uC720\uC120\uD615\uC758 \uBCA8\uB85C\uC6B0\uC988\uC5D0 \uC758\uD574 \uBCF4\uD638\uB418\uACE0
+      \uC788\uC2B5\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: d46cc576bd27047158456e4c1eb103f9,
+      type: 3}
+  - guideTitle: "\uBE14\uB9BF \uB178\uC988(Bullet nose)"
+    guideDescription: "\uAE30\uAD00\uC73C\uB85C \uC720\uC785\uB418\uB294 \uD761\uC785\uACF5\uAE30\uC758
+      \uC640\uB958\uAC00 \uD615\uC131\uB418\uB294 \uAC83\uC744 \uBC29\uC9C0\uD558\uACE0,
+      \uD761\uC785\uACF5\uAE30\uAC00 \uCE35\uB958\uB85C \uC555\uCD95\uAE30 \uC5D0
+      \uC720\uC785\uB420 \uC218 \uC788\uB3C4\uB85D \uC720\uC120\uD615\uC73C\uB85C
+      \uB41C \uAD6C\uC131\uD488\uC73C\uB85C \uBC29\uBE59\uACC4\uD1B5\uC758 \uB0B4\uBD80\uC5D0
+      \uC2DC\uACC4\uBC29\uD5A5\uC73C\uB85C \uC5EC\uC12F\uC2DC \uBC29\uD5A5\uC5D0
+      \uBD80\uCC29\uB418\uC5B4 \uC788\uC2B5\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 9274dd039b0704534b80a4e13ddbb79a,
+      type: 3}
+  - guideTitle: "\uC555\uCD95\uAE30 \uC804\uBC29 \uD504\uB808\uC784(Compressor front
+      frame)"
+    guideDescription: "\uAE30\uAD00\uC758 \uC804\uBC29\uC744 \uC9C0\uC9C0\uD558\uB294
+      \uAD6C\uC870 \uBD80\uBD84\uC73C\uB85C, \uC911\uC2EC\uC5D0\uB294 \uC555\uCD95\uAE30
+      \uC804\uBC29\uC744 \uC9C0\uC9C0\uD558\uB294 \uBCA0\uC5B4\uB9C1\uC774 \uC124\uCE58
+      \uB418\uC5B4\uC838\uC788\uC2B5\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 06949e76292404ac5a46890d92db3651,
+      type: 3}
+  - guideTitle: "\uC544\uC77C\uB79C\uB4DC \uD398\uC5B4\uB9C1(Island fairing)"
+    guideDescription: "\uC8FC \uAE30\uC5B4  \uCF00\uC774\uC2A4\uB098 \uBCF4\uC870
+      \uAE30\uC5B4 \uCF00\uC774\uC2A4\uC5D0 \uBD80\uCC29\uB41C \uBD80\uD488\uACFC
+      \uAE30\uAD00 \uC678\uBD80\uC640 \uC5F0\uACB0\uB418\uB294 \uC804\uAE30\uB3C4\uC120,
+      \uC724\uD65C \uC5F0\uB8CC \uBC29\uBE59 \uACC4\uD1B5\uC758 \uD29C\uBE0C\uB098
+      \uD638\uC2A4\uAC00 \uD1B5\uACFC\uD558\uB294 4\uAC1C\uC758 \uC720\uC120\uD615\uC758
+      \uAD6C\uC131\uD488\uC73C\uB85C \uD761\uC785 \uACF5\uAE30\uC758 \uC800\uD56D\uC744
+      \uCD5C\uC18C\uB85C \uC904\uC5EC\uC8FC\uB294 \uC5ED\uD560\uC744 \uD574\uC90D\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: a0a1f5716d9cb4fcea6f741ad5217f88,
+      type: 3}
+  - guideTitle: "\uACF5\uAE30 \uD761\uC785 \uC2A4\uD06C\uB9B0(Air Inlet screen)"
+    guideDescription: "\uC555\uCD95\uAE30\uB85C \uACF5\uAE30 \uC720\uC785\uC2DC \uC678\uBD80\uC758
+      \uC774\uBB3C\uC9C8\uC774 \uD568\uAED8 \uC720\uC785\uB418\uC5B4 \uC555\uCD95\uAE30\uAC00
+      \uC190\uC0C1 \uB418\uB294 \uAC83\uC744 \uBC29\uC9C0\uD574\uC90D\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 025e72c44b8c44065baa3b194d55cf03,
+      type: 3}

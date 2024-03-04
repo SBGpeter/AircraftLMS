@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 9fc51cca626eb45ea8daa3522c5ecdaa
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Sunflower
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 0488b0a54505249b99a848eacf5923e3, type: 3}
+  - {fileID: 12800000, guid: 376c18d60db5845b09c01634d3049b06, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

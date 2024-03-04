@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba11c9a4b4a274f21a59216a5f0706b6, type: 3}
+  m_Name: GuideTextList_ASSEM_AirDuctClamp
+  m_EditorClassIdentifier: 
+  guideLists:
+  - guideTitle: "\uC5D0\uC5B4\uB355\uD2B8 \uD074\uB7A8\uD504"
+    guideDescription: "\uC5D0\uC5B4\uB355\uD2B8 \uD074\uB7A8\uD504 \uBD84\uD574\uC870\uB9BD\uC785\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 233d33b125993427c9af4a8821204c0d,
+      type: 3}
+  - guideTitle: "\uACF5\uAD6C\uD655\uC778"
+    guideDescription: "\uC0AC\uC6A9\uD560 \uACF5\uAD6C\uB97C \uD655\uC778\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: cf462baf415a34e46adfa704d240d67f,
+      type: 3}
+  - guideTitle: "\uC5D0\uC5B4\uB355\uD2B8 \uD074\uB7A8\uD504 \uBD84\uD574"
+    guideDescription: "3/8\uC778\uCE58 \uC18C\uCF13, \uC720\uB2C8\uBC84\uC15C \uC870\uC778\uD2B8,
+      \uC2A4\uD53C\uB4DC\uD578\uB4E4\uC744 \uC900\uBE44\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: fb7a7f4df193c4485ab332762a2dbf8f,
+      type: 3}
+  - guideTitle: "\uC5D0\uC5B4\uB355\uD2B8 \uD074\uB7A8\uD504 \uBD84\uD574"
+    guideDescription: "\uC2A4\uD53C\uD2B8 \uD578\uB4E4\uC5D0 \uC18C\uCF13\uACFC \uC870\uC778\uD2B8\uB97C
+      \uACB0\uD569\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 3a4470d45c52549d7b6ad56d92cc9218,
+      type: 3}
+  - guideTitle: "\uC5D0\uC5B4\uB355\uD2B8 \uD074\uB7A8\uD504 \uBD84\uD574"
+    guideDescription: "\uD578\uB4E4\uC744 \uC81C\uAC70\uD560 \uBCFC\uD2B8\uC5D0 \uC704\uCE58\uC2DC\uD0B5\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: ea3900030a8d84769a84ad1597a16923,
+      type: 3}
+  - guideTitle: "\uC5D0\uC5B4\uB355\uD2B8 \uD074\uB7A8\uD504 \uBD84\uD574"
+    guideDescription: "\uC5D0\uC5B4\uB355\uD2B8 \uD074\uB7A8\uD504\uC758 \uBCFC\uD2B8\uB97C
+      \uD480\uC5B4\uC90D\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 3c27b2bd007854fff8a03f07ecdd0c91,
+      type: 3}
+  - guideTitle: "\uC5D0\uC5B4\uB355\uD2B8 \uD074\uB7A8\uD504 \uBD84\uD574"
+    guideDescription: "\uC5D0\uC5B4\uB355\uD2B8 \uD074\uB7A8\uD504\uAC00 \uC81C\uAC70
+      \uB418\uC5C8\uC2B5\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: a529c49f5304e4618a70b21f138b84fb,
+      type: 3}
+  - guideTitle: "\uC5D0\uC5B4\uB355\uD2B8 \uD074\uB7A8\uD504 \uD655\uC778"
+    guideDescription: "\uC5D0\uC5B4\uB355\uD2B8 \uD074\uB7A8\uD504\uB97C \uD655\uC778\uD569\uB2C8\uB2E4. "
+    guideDescriptionVoice: {fileID: 8300000, guid: e35ed5e6d51e8408cb6df6972d457cbd,
+      type: 3}
+  - guideTitle: "\uC5D0\uC5B4\uB355\uD2B8 \uD074\uB7A8\uD504 \uC870\uB9BD"
+    guideDescription: "\uC774\uC81C \uC5D0\uC5B4\uB355\uD2B8 \uD074\uB7A8\uD504\uB97C
+      \uC870\uB9BD\uD558\uACA0\uC2B5\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: f38e898fd0f8f4342935632117335215,
+      type: 3}
+  - guideTitle: "\uC5D0\uC5B4\uB355\uD2B8 \uD074\uB7A8\uD504 \uC870\uB9BD"
+    guideDescription: "\uC5D0\uC5B4\uB355\uD2B8 \uD074\uB7A8\uD504\uC758 \uBCFC\uD2B8\uB97C
+      \uC870\uC5EC\uC90D\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: ded8d493ff91b4a85b1c58d59706b79b,
+      type: 3}
+  - guideTitle: "\uC5D0\uC5B4\uB355\uD2B8 \uD074\uB7A8\uD504 \uC870\uB9BD"
+    guideDescription: "\uD074\uB7A8\uD504\uAC00 \uC798 \uACE0\uC815\uB418\uC5C8\uB294\uC9C0
+      \uD655\uC778\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 8fe61e9c3088f4e5bb2e67299d8a2b48,
+      type: 3}
+  - guideTitle: "\uC5D0\uC5B4\uB355\uD2B8 \uD074\uB7A8\uD504 \uC870\uB9BD"
+    guideDescription: "\uD578\uB4E4\uC744 \uC81C\uAC70 \uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: f0dd8372bd60349f5b4eacaf029855f2,
+      type: 3}
+  - guideTitle: "\uC644\uB8CC"
+    guideDescription: "\uC5D0\uC5B4\uB355\uD2B8 \uD074\uB7A8\uD504 \uBD84\uD574\uC870\uB9BD\uC774
+      \uC644\uB8CC\uB418\uC5C8\uC2B5\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: ff4e64c233a5e439d91ab99f841cb8ed,
+      type: 3}

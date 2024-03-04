@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba11c9a4b4a274f21a59216a5f0706b6, type: 3}
+  m_Name: GuideTextList_Overview
+  m_EditorClassIdentifier: 
+  guideLists:
+  - guideTitle: "\uBD81\uBD80\uAE30\uC220\uAD50\uC721\uC6D0 \uD56D\uACF5\uC815\uBE44\uAC80\uC0AC"
+    guideDescription: "\uD559\uC2B5\uD560 \uC5D4\uC9C4\uC744 \uC120\uD0DD\uD574 \uC8FC\uC138\uC694."
+    guideDescriptionVoice: {fileID: 8300000, guid: 212254d15f7f04cc5bdc201585fdb2b6,
+      type: 3}
+  - guideTitle: "\uACF5\uAE30 \uD761\uC785 \uBD80\uBD84(Air Inlet Section)"
+    guideDescription: "\uACF5\uAE30 \uD761\uC785 \uBD80\uBD84\uC740 \uC8FC \uAE30\uC5B4
+      \uCF00\uC774\uC2A4, \uBCF4\uC870 \uAE30\uC5B4 \uCF00\uC774\uC2A4, \uBD88\uB9BF
+      \uB178\uD06C, \uC555\uCD95\uAE30 \uC804\uBC29 \uD504\uB808\uC784, \uC544\uC77C\uB79C\uB4DC
+      \uD398\uC5B4\uB9C1, \uACF5\uAE30 \uD761\uC785 \uC2A4\uD06C\uB9B0\uC73C\uB85C
+      \uAD6C\uC131\uB418\uC5B4 \uC788\uB2E4. "
+    guideDescriptionVoice: {fileID: 8300000, guid: e1a400f866c9a4b7eacf22b3d2a120a6,
+      type: 3}
+  - guideTitle: "\uC555\uCD95\uAE30 \uBD80\uBD84(Compressor Section)"
+    guideDescription: "\uC555\uCD95\uAE30 \uBD80\uBD84\uC740 \uC555\uCD95\uAE30 \uB85C\uD130,
+      \uC555\uCD95\uAE30 \uCF00\uC774\uC2F1, \uC555\uCD95\uAE30 \uD6C4\uBC29 \uD504\uB808\uC784,
+      \uC555\uCD95\uAE30 \uD6C4\uBC29 \uB0C9\uAC01\uAE30\uB85C \uAD6C\uC131\uB418\uC5B4
+      \uC788\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 3932c5636756740dab58cf4b2ec2f8cc,
+      type: 3}
+  - guideTitle: "\uC5F0\uC18C\uC2E4 \uBD80\uBD84(Combustion Section)"
+    guideDescription: "8\uAC1C\uC758 \uC9C1\uB958 \uCE94\uD615 \uC5F0\uC18C\uC2E4\uB85C
+      \uB0B4\uBD80 \uB77C\uC774\uB108, \uC678\uBD80 \uC5F0\uC18C\uC2E4 \uAC01\uAC01
+      8 \uAC1C\uB85C \uAD6C\uC131\uB418\uC5B4 \uC788\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 8013a58ca842c42e085933df436933a8,
+      type: 3}
+  - guideTitle: "\uD130\uBE48 \uBD80\uBD84(Turbine Section)"
+    guideDescription: "\uD130\uBE48 \uBD80\uBD84\uC740 \uD130\uBE48 \uB178\uC990,
+      \uD130\uBE48 \uD720, \uC26C\uB77C\uC6B0\uB4DC \uB9C1, \uD130\uBE48 \uCF00\uC774\uC2F1\uC73C\uB85C
+      \uAD6C\uC131\uB418\uC5B4 \uC788\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 37804dd9500154709a01071ec2073418,
+      type: 3}
+  - guideTitle: "\uBC30\uAE30 \uBD80\uBD84(Exhaust Section)"
+    guideDescription: "\uC555\uB825\uC5D0\uB108\uC9C0\uB97C \uC6B4\uB3D9\uC5D0\uB108\uC9C0\uB85C
+      \uBCC0\uD658\uD558\uC5EC \uCD94\uB825\uC744 \uBC1C\uC0DD\uC2DC\uD0A8\uB2E4.
+      \uBC30\uAE30 \uCF58, \uBC30\uAE30 \uAD00\uC73C\uB85C \uAD6C\uC131\uB418\uC5B4
+      \uC788\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 3fa2dc3fe932345e6864717bcb6d2f77,
+      type: 3}

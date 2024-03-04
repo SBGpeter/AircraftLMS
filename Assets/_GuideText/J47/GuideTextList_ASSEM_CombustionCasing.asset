@@ -1,0 +1,640 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba11c9a4b4a274f21a59216a5f0706b6, type: 3}
+  m_Name: GuideTextList_ASSEM_CombustionCasing
+  m_EditorClassIdentifier: 
+  guideLists:
+  - guideTitle: "\uC5F0\uC18C\uC2E4 \uBD84\uD574\uC870\uB9BD"
+    guideDescription: "\uC5F0\uC18C\uC2E4 \uBD84\uD574\uC870\uB9BD\uC785\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 1c77bd55bc5d44cf48905b4e284a9522,
+      type: 3}
+  - guideTitle: "\uACF5\uAD6C \uD655\uC778"
+    guideDescription: "\uC0AC\uC6A9\uD560 \uACF5\uAD6C\uB97C \uD655\uC778\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 5187fc89e51e0478a9e93b02c8f86236,
+      type: 3}
+  - guideTitle: "\uC5F0\uC18C\uC2E4 \uD655\uC778"
+    guideDescription: "\uBD84\uD574\uD560 \uC5F0\uC18C\uC2E4\uC744 \uD655\uC778\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: ab1da2a85e1e44390815fa7c5fac8d68,
+      type: 3}
+  - guideTitle: "\uC774\uADF8\uB098\uC774\uD130"
+    guideDescription: "\uC774\uADF8\uB098\uC774\uD130\uB294 3\uBC88, 7\uBC88 \uC5F0\uC18C\uC2E4\uC5D0\uB9CC
+      \uC788\uC2B5\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: d46db3bca52bf4c52a1c695210c95478,
+      type: 3}
+  - guideTitle: "\uB4DC\uB808\uC778 \uB77C\uC778"
+    guideDescription: "\uB4DC\uB808\uC778 \uB77C\uC778\uC740 \uAC01 \uC5F0\uC18C\uC2E4\uB9C8\uB2E4
+      \uB450\uAC1C\uC529 \uC788\uC2B5\uB2C8\uB2E4. "
+    guideDescriptionVoice: {fileID: 8300000, guid: da0730498334047a6afc46d4c33a54dd,
+      type: 3}
+  - guideTitle: "\uC5F0\uC18C\uC2E4 \uB215\uD788\uAE30"
+    guideDescription: "\uC5F0\uC18C\uC2E4\uC744 \uB215\uD600 \uBD84\uD574 \uC900\uBE44\uB97C
+      \uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 729327d54291844fabf0152229c9d129,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120 \uC81C\uAC70"
+    guideDescription: "\uB2E4\uC774\uC5B4\uACE0\uB110 \uCEE4\uD305 \uD50C\uB77C\uC774\uC5B4\uB97C
+      \uC900\uBE44\uD569\uB2C8\uB2E4. "
+    guideDescriptionVoice: {fileID: 8300000, guid: 231b21ccb87ee407c8815a0082b26f04,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120 \uC81C\uAC70"
+    guideDescription: "\uB7EC\uADF8\uBCFC\uD2B8\uC758 \uC548\uC804\uACB0\uC120\uC744
+      \uB04A\uC2B5\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 565ea0824903745ef8a89bca002926a7,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120 \uC81C\uAC70"
+    guideDescription: "\uC548\uC804\uACB0\uC120\uC744 \uC81C\uAC70\uD558\uAE30 \uC6A9\uC774\uD558\uB3C4\uB85D
+      \uB9CC\uB4ED\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: b6edc12ec5ca044e481c00d11658f6e4,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120 \uC81C\uAC70"
+    guideDescription: "\uC548\uC804\uACB0\uC120\uC744 \uC81C\uAC70\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 85358b6fdb592410288a65b196f74194,
+      type: 3}
+  - guideTitle: "\uB7EC\uADF8\uBCFC\uD2B8 \uC81C\uAC70"
+    guideDescription: "7/16\uC778\uCE58 \uC18C\uCF13\uACFC \uC2A4\uD53C\uB4DC\uD578\uB4E4\uC744
+      \uC900\uBE44\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: fa9078bf248b14002bfe2493cf249f56,
+      type: 3}
+  - guideTitle: "\uB7EC\uADF8\uBCFC\uD2B8 \uC81C\uAC70"
+    guideDescription: "\uC18C\uCF13\uACFC \uC2A4\uD53C\uB4DC\uD578\uB4E4\uC744 \uACB0\uD569\uD569\uB2C8\uB2E4. "
+    guideDescriptionVoice: {fileID: 8300000, guid: ce7400a00a0d94088893357098807178,
+      type: 3}
+  - guideTitle: "\uB7EC\uADF8\uBCFC\uD2B8 \uC81C\uAC70"
+    guideDescription: "\uC18C\uCF13\uACFC \uACB0\uD569\uB41C \uC2A4\uD53C\uB4DC \uD578\uB4E4\uC744
+      \uB7EC\uADF8\uBCFC\uD2B8\uC5D0 \uBC30\uCE58\uD569\uB2C8\uB2E4 "
+    guideDescriptionVoice: {fileID: 8300000, guid: 6dcab1f9af15b42228312b2faa3daf6c,
+      type: 3}
+  - guideTitle: "\uB7EC\uADF8\uBCFC\uD2B8 \uC81C\uAC70"
+    guideDescription: "\uB7EC\uADF8\uBCFC\uD2B8\uB97C \uD480\uC5B4\uC90D\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 10fb5e4dcbe4a4cf0992f241e44942d2,
+      type: 3}
+  - guideTitle: "\uB7EC\uADF8\uBCFC\uD2B8 \uC81C\uAC70"
+    guideDescription: "\uB7EC\uADF8\uBCFC\uD2B8\uB294 \uCD9C\uAD6C\uB9C1\uC744 \uACE0\uC815\uC2DC\uCF1C\uC8FC\uB294
+      \uC5ED\uD560\uC744 \uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: b4b76db7374304396bb686cf180a0b19,
+      type: 3}
+  - guideTitle: "\uB7EC\uADF8\uBCFC\uD2B8 \uC81C\uAC70"
+    guideDescription: "\uB7EC\uADF8\uBCFC\uD2B8 1\uAC1C\uAC00 \uC81C\uAC70\uB418\uC5C8\uC2B5\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 4d58bca838ed34083b3120ae0bd7000b,
+      type: 3}
+  - guideTitle: "\uC5F0\uC18C\uC2E4 \uD68C\uC804"
+    guideDescription: "\uBC18\uB300\uCABD \uC791\uC5C5\uC744 \uC704\uD574 \uC5F0\uC18C\uC2E4\uC744
+      \uD68C\uC804\uC2DC\uD0B5\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: b391705c1e7a14df18a438de20279035,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120 \uC81C\uAC70"
+    guideDescription: "\uB7EC\uADF8\uBCFC\uD2B8\uC758 \uC704\uCE58\uB97C \uD655\uC778\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: b4017b37ab0184f07bfd754bf0df995c,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120 \uC81C\uAC70"
+    guideDescription: "\uB2E4\uC774\uC5B4\uACE0\uB110 \uCEE4\uD305 \uD50C\uB77C\uC774\uC5B4\uB97C
+      \uC900\uBE44\uD569\uB2C8\uB2E4. "
+    guideDescriptionVoice: {fileID: 8300000, guid: b0de0706ed97d471199b826c06d8e61d,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120 \uC81C\uAC70"
+    guideDescription: "\uB7EC\uADF8\uBCFC\uD2B8\uC758 \uC548\uC804\uC120\uC744 \uB04A\uC2B5\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 435e2bc2c524c4050937b0271888c475,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120 \uC81C\uAC70"
+    guideDescription: "\uC548\uC804\uACB0\uC120\uC744 \uC81C\uAC70\uD558\uAE30 \uC6A9\uC774\uD558\uB3C4\uB85D
+      \uB9CC\uB4ED\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 8d723b06ed24f41639121994302e22b4,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120 \uC81C\uAC70"
+    guideDescription: "\uC548\uC804\uACB0\uC120\uC744 \uC81C\uAC70\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: ef85de4a6495a4af4aaca1cd2743b55a,
+      type: 3}
+  - guideTitle: "\uB7EC\uADF8\uBCFC\uD2B8 \uC81C\uAC70"
+    guideDescription: "7/16\uC778\uCE58 \uC18C\uCF13\uACFC \uC2A4\uD53C\uB4DC\uD578\uB4E4\uC744
+      \uC900\uBE44\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 093b6607b0a354df7ab5463960415c1c,
+      type: 3}
+  - guideTitle: "\uB7EC\uADF8\uBCFC\uD2B8 \uC81C\uAC70"
+    guideDescription: "\uC18C\uCF13\uACFC \uC2A4\uD53C\uB4DC\uD578\uB4E4\uC744 \uACB0\uD569\uD569\uB2C8\uB2E4. "
+    guideDescriptionVoice: {fileID: 8300000, guid: 91110be4be10245b28c9f8fd17081a53,
+      type: 3}
+  - guideTitle: "\uB7EC\uADF8\uBCFC\uD2B8 \uC81C\uAC70"
+    guideDescription: "\uC18C\uCF13\uACFC \uACB0\uD569\uB41C \uC2A4\uD53C\uB4DC \uD578\uB4E4\uC744
+      \uB7EC\uADF8\uBCFC\uD2B8\uC5D0 \uBC30\uCE58\uD569\uB2C8\uB2E4 "
+    guideDescriptionVoice: {fileID: 8300000, guid: 7c6c6227659f04100a56a84cb4602d24,
+      type: 3}
+  - guideTitle: "\uB7EC\uADF8\uBCFC\uD2B8 \uC81C\uAC70"
+    guideDescription: "\uB7EC\uADF8\uBCFC\uD2B8\uB97C \uD480\uC5B4\uC90D\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 67ce9fe2177b54d32b732dd31e3c98a8,
+      type: 3}
+  - guideTitle: "\uB7EC\uADF8\uBCFC\uD2B8 \uC81C\uAC70"
+    guideDescription: "\uB7EC\uADF8\uBCFC\uD2B8\uB294 \uCD9C\uAD6C\uB9C1\uC744 \uACE0\uC815\uC2DC\uCF1C\uC8FC\uB294
+      \uC5ED\uD560\uC744 \uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 5e55d8e7cd643432d9890649b0ca46cc,
+      type: 3}
+  - guideTitle: "\uB7EC\uADF8\uBCFC\uD2B8 \uC81C\uAC70"
+    guideDescription: "\uB7EC\uADF8\uBCFC\uD2B8\uAC00 \uBAA8\uB450 \uC81C\uAC70\uB418\uC5C8\uC2B5\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 2001300d42d7a4c27af69a469a771576,
+      type: 3}
+  - guideTitle: "\uCD9C\uAD6C\uB9C1 \uBD84\uB9AC"
+    guideDescription: "\uC774\uC81C \uCD9C\uAD6C\uB9C1\uC744 \uBD84\uB9AC\uD574 \uC90D\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: ae6888b5f7e8c484698e8ce3b3c89ead,
+      type: 3}
+  - guideTitle: "\uCD9C\uAD6C\uB9C1 \uBD84\uB9AC"
+    guideDescription: "\uCD9C\uAD6C\uB9C1\uC774 \uBD84\uB9AC\uB418\uC5C8\uC2B5\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 7a6ad7b96443a4afcb51b093440bb7f2,
+      type: 3}
+  - guideTitle: "\uC5F0\uC18C\uC2E4 \uC138\uC6B0\uAE30"
+    guideDescription: "\uD06C\uB85C\uC2A4 \uC774\uADF8\uB2C8\uC158 \uD29C\uBE0C\uB97C
+      \uBD84\uB9AC\uD558\uAE30\uC704\uD574 \uC5F0\uC18C\uC2E4\uC744 \uC138\uC6C1\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 84cb5de24e4134ea8ad80aa915d53631,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120 \uC81C\uAC70"
+    guideDescription: "\uB871\uB178\uC988 \uD50C\uB77C\uC774\uC5B4\uB97C \uC900\uBE44\uD569\uB2C8\uB2E4. "
+    guideDescriptionVoice: {fileID: 8300000, guid: 1886ecfc2a7dd45e9a0da2ba94cf3d58,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120 \uC81C\uAC70"
+    guideDescription: "\uB871\uB178\uC988 \uD50C\uB77C\uC774\uC5B4\uB85C \uC228\uACA8\uC9C4
+      \uD53C\uADF8\uD14C\uC77C\uC744 \uC7A1\uC544\uB2F9\uAE41\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: f35f9700a62d94f078974ec06be1b76e,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120 \uC81C\uAC70"
+    guideDescription: "\uC548\uC804\uACB0\uC120\uC744 \uD655\uC778\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 945278387dc6e4b75bcab564e351f635,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120 \uC81C\uAC70"
+    guideDescription: "\uC640\uC774\uC5B4 \uD2B8\uC704\uC2A4\uD130\uB97C \uC900\uBE44\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 373dc94dee7f046bd8aebe2640ebf805,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120 \uC81C\uAC70"
+    guideDescription: "\uC640\uC774\uC5B4 \uD2B8\uC704\uC2A4\uD130\uB85C \uBB36\uC778
+      \uC548\uC804\uACB0\uC120\uC744 \uD480\uC5B4\uC90D\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: fe39dff67cd3f4313aab23cfcb8aabed,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120 \uC81C\uAC70"
+    guideDescription: "\uC548\uC804\uACB0\uC120\uC744 \uD655\uC778\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: ffa278e4e6e0f4d3781dc6718744bae9,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120 \uC81C\uAC70"
+    guideDescription: "\uB2E4\uC774\uC5B4\uACE0\uB110 \uCEE4\uD305 \uD50C\uB77C\uC774\uC5B4\uB97C
+      \uC900\uBE44\uD569\uB2C8\uB2E4. "
+    guideDescriptionVoice: {fileID: 8300000, guid: 72b474db5d9d647a68dbaac5ffc88ff9,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120 \uC81C\uAC70"
+    guideDescription: "\uD06C\uB85C\uC2A4 \uC774\uADF8\uB2C8\uC158 \uD29C\uBE0C\uC758
+      \uC548\uC804\uACB0\uC120\uC744 \uB04A\uC2B5\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 1607071e24e23406cab6a949fedd06ff,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120 \uC81C\uAC70"
+    guideDescription: "\uC548\uC804\uACB0\uC120\uC744 \uD655\uC778\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 940471dc25d334bcbb6559f63c5cc6ab,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120 \uC81C\uAC70"
+    guideDescription: "\uD06C\uB85C\uC2A4 \uC774\uADF8\uB2C8\uC158 \uD29C\uBE0C\uC758
+      \uC548\uC804\uACB0\uC120\uC744 \uC81C\uAC70\uD569\uB2C8\uB2E4. "
+    guideDescriptionVoice: {fileID: 8300000, guid: d094f3ae00dd6454a80d0e5caeae38fa,
+      type: 3}
+  - guideTitle: "\uD06C\uB85C\uC2A4 \uC774\uADF8\uB2C8\uC158 \uD29C\uBE0C \uBD84\uB9AC"
+    guideDescription: "\uD06C\uB85C\uC2A4 \uC774\uADF8\uB2C8\uC158 \uD29C\uBE0C\uB97C
+      \uBD84\uB9AC\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: cae7abce5d9804d34aeaad77a588a342,
+      type: 3}
+  - guideTitle: "\uC5F0\uC18C\uC2E4 \uBC18\uB300\uD3B8"
+    guideDescription: "\uC774\uC81C \uBC18\uB300\uD3B8\uC744 \uC791\uC5C5\uD558\uACA0\uC2B5\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: daf74fcce607946cca234b293b12f03c,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120 \uC81C\uAC70"
+    guideDescription: "\uC548\uC804\uACB0\uC120\uC744 \uD655\uC778\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 3d3968ea16d2c4862abccbc6fcf49713,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120 \uC81C\uAC70"
+    guideDescription: "\uB871\uB178\uC988 \uD50C\uB77C\uC774\uC5B4\uB97C \uC900\uBE44\uD569\uB2C8\uB2E4. "
+    guideDescriptionVoice: {fileID: 8300000, guid: 817a67a22b2a54b94b9a470ad74ff94e,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120 \uC81C\uAC70"
+    guideDescription: "\uB871\uB178\uC988 \uD314\uB77C\uC774\uC5B4\uB85C \uC228\uACA8\uC9C4
+      \uD53C\uADF8\uD14C\uC77C\uC744 \uC7A1\uC544\uB2F9\uAE41\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 2bb85eb6175d6478685f94b2037ddfbb,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120 \uC81C\uAC70"
+    guideDescription: "\uC548\uC804\uACB0\uC120\uC744 \uD655\uC778\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: a9b0e39220f8349ffa32e1f50bfafe48,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120 \uC81C\uAC70"
+    guideDescription: "\uC640\uC774\uC5B4 \uD2B8\uC704\uC2A4\uD130\uB97C \uC900\uBE44\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 30fade01d57934f448f517fea94df591,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120 \uC81C\uAC70"
+    guideDescription: "\uC640\uC774\uC5B4 \uD2B8\uC704\uC2A4\uD130\uB85C \uBB36\uC778
+      \uC548\uC804\uACB0\uC120\uC744 \uD480\uC5B4\uC90D\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 73f767d32e8d34416bf7c5171f707f22,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120 \uC81C\uAC70"
+    guideDescription: "\uC548\uC804\uACB0\uC120\uC744 \uD655\uC778\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 96701ab39cee24eb09f134613bca3948,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120 \uC81C\uAC70"
+    guideDescription: "\uB2E4\uC774\uC5B4\uACE0\uB110 \uCEE4\uD305 \uD50C\uB77C\uC774\uC5B4\uB97C
+      \uC900\uBE44\uD569\uB2C8\uB2E4. "
+    guideDescriptionVoice: {fileID: 8300000, guid: f1d73f10c2dea49a2852d342659a0a37,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120 \uC81C\uAC70"
+    guideDescription: "\uD06C\uB85C\uC2A4 \uC774\uADF8\uB2C8\uC158 \uD29C\uBE0C\uC758
+      \uC548\uC804\uACB0\uC120\uC744 \uB04A\uC2B5\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 197a34f42780f491db94bca6c24ebe0b,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120 \uC81C\uAC70"
+    guideDescription: "\uD06C\uB85C\uC2A4 \uC774\uADF8\uB2C8\uC158 \uD29C\uBE0C\uC758
+      \uC548\uC804\uACB0\uC120\uC744 \uC81C\uAC70\uD569\uB2C8\uB2E4. "
+    guideDescriptionVoice: {fileID: 8300000, guid: 1f9294aea13904846a85f190c6e09023,
+      type: 3}
+  - guideTitle: "\uD06C\uB85C\uC2A4 \uC774\uADF8\uB2C8\uC158 \uD29C\uBE0C \uBD84\uB9AC"
+    guideDescription: "\uD06C\uB85C\uC2A4 \uC774\uADF8\uB2C8\uC158 \uD29C\uBE0C\uB97C
+      \uBD84\uB9AC\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 8459d8519ceb44177b12bd69c2dc7745,
+      type: 3}
+  - guideTitle: "\uD06C\uB85C\uC2A4 \uC774\uADF8\uB2C8\uC158 \uD29C\uBE0C \uBD84\uB9AC"
+    guideDescription: "\uC774\uC81C \uD06C\uB85C\uC2A4 \uC774\uADF8\uB2C8\uC158 \uD29C\uBE0C\uAC00
+      \uBAA8\uB450 \uBD84\uB9AC\uB418\uC5C8\uC2B5\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 4cee6905e44f2455290a2c7d5554a5c2,
+      type: 3}
+  - guideTitle: "\uC5F0\uC18C\uC2E4 \uB215\uD788\uAE30"
+    guideDescription: "\uC774\uB108\uB77C\uC774\uB108 \uBD84\uB9AC\uB97C \uC704\uD574
+      \uC5F0\uC18C\uC2E4\uC744 \uB215\uD600\uC90D\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 26956bf93663d48a59a2a796ffb9aed4,
+      type: 3}
+  - guideTitle: "\uC774\uB108\uB77C\uC774\uB108 \uBD84\uB9AC"
+    guideDescription: "\uBD80\uB52A\uD788\uB294 \uC18C\uB9AC\uAC00 \uC5C6\uB3C4\uB85D
+      \uC774\uB108\uB77C\uC774\uB108\uB97C \uC870\uC2EC\uC2A4\uB7FD\uAC8C \uBD84\uB9AC\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 3a2764665c030492a844f500aa8b4908,
+      type: 3}
+  - guideTitle: "\uC774\uB108\uB77C\uC774\uB108 \uBD84\uB9AC"
+    guideDescription: "\uC774\uB108\uB77C\uC774\uB108\uB97C \uD655\uC778\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 23b89664a6d554d49980e4e008b77adb,
+      type: 3}
+  - guideTitle: "\uC774\uB108\uB77C\uC774\uB108 \uBD84\uB9AC"
+    guideDescription: "\uBD84\uD574\uB97C \uB9C8\uCCE4\uC2B5\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: f6bb6a90e53514ab8acab44e926bfb3e,
+      type: 3}
+  - guideTitle: "\uC774\uB108\uB77C\uC774\uB108 \uACB0\uD569"
+    guideDescription: "\uC774\uC81C \uC774\uB108\uB77C\uC774\uB108\uB97C \uACB0\uD569\uD560
+      \uC900\uBE44\uB97C \uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: f16bcb2f908a74767a457ff7fb200900,
+      type: 3}
+  - guideTitle: "\uC774\uB108\uB77C\uC774\uB108 \uACB0\uD569"
+    guideDescription: "\uC774\uB108\uB77C\uC774\uB108\uB97C \uACB0\uD569\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: f7aaf88698c3a4e249d4866846852239,
+      type: 3}
+  - guideTitle: "\uC5F0\uC18C\uC2E4 \uC138\uC6B0\uAE30"
+    guideDescription: "\uD06C\uB85C\uC2A4 \uC774\uADF8\uB2C8\uC158 \uD29C\uBE0C\uB97C
+      \uACB0\uD569\uD558\uAE30\uC704\uD574 \uC5F0\uC18C\uC2E4\uC744 \uC138\uC6C1\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: b385b1a9eb28c4b478dba73bdd3cc67c,
+      type: 3}
+  - guideTitle: "\uD06C\uB85C\uC2A4 \uC774\uADF8\uB2C8\uC158 \uD29C\uBE0C \uACB0\uD569"
+    guideDescription: "\uBD84\uB9AC\uD588\uB358 \uD06C\uB85C\uC2A4 \uC774\uADF8\uB2C8\uC158
+      \uD29C\uBE0C\uB97C \uC900\uBE44\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: d3d0186c043464f3c9a6d3ca4d9715cb,
+      type: 3}
+  - guideTitle: "\uD06C\uB85C\uC2A4 \uC774\uADF8\uB2C8\uC158 \uD29C\uBE0C \uACB0\uD569"
+    guideDescription: "\uD06C\uB85C\uC2A4 \uC774\uADF8\uB2C8\uC158 \uD29C\uBE0C\uB97C
+      \uC5F0\uC18C\uC2E4\uC5D0 \uACB0\uD569\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: f1046b65b41c6463b9bf82a290eb0687,
+      type: 3}
+  - guideTitle: "\uD06C\uB85C\uC2A4 \uC774\uADF8\uB2C8\uC158 \uD29C\uBE0C \uACB0\uD569"
+    guideDescription: "\uC640\uC774\uC5B4\uB97C \uC774\uC6A9\uD558\uC5EC \uC5F0\uC18C\uC2E4\uACFC
+      \uD29C\uBE0C\uB97C \uAC00\uBCCD\uAC8C \uACE0\uC815\uD574\uC90D\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 0b5187133014a46b29dc6d8184a7376f,
+      type: 3}
+  - guideTitle: "\uD06C\uB85C\uC2A4 \uC774\uADF8\uB2C8\uC158 \uD29C\uBE0C \uACB0\uD569"
+    guideDescription: "\uC548\uC804\uACB0\uC120\uC744 \uBB36\uAE30\uC804\uC5D0 \uBC18\uB300\uCABD\uB3C4
+      \uC791\uC5C5\uD569\uB2C8\uB2E4. "
+    guideDescriptionVoice: {fileID: 8300000, guid: 3909af69b67bd4f93be1422f60546f10,
+      type: 3}
+  - guideTitle: "\uD06C\uB85C\uC2A4 \uC774\uADF8\uB2C8\uC158 \uD29C\uBE0C \uACB0\uD569"
+    guideDescription: "\uBD84\uB9AC\uD588\uB358 \uD06C\uB85C\uC2A4 \uC774\uADF8\uB2C8\uC158
+      \uD29C\uBE0C\uB97C \uC900\uBE44\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: f1fda574ba470478dbd081fc97ce7b8d,
+      type: 3}
+  - guideTitle: "\uD06C\uB85C\uC2A4 \uC774\uADF8\uB2C8\uC158 \uD29C\uBE0C \uACB0\uD569"
+    guideDescription: "\uD06C\uB85C\uC2A4 \uC774\uADF8\uB2C8\uC158 \uD29C\uBE0C\uB97C
+      \uC5F0\uC18C\uC2E4\uC5D0 \uACB0\uD569\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 8d5735b1ff0454b698c52ae0ea30d6e2,
+      type: 3}
+  - guideTitle: "\uD06C\uB85C\uC2A4 \uC774\uADF8\uB2C8\uC158 \uD29C\uBE0C \uACB0\uD569"
+    guideDescription: "\uC640\uC774\uC5B4\uB97C \uC774\uC6A9\uD558\uC5EC \uC5F0\uC18C\uC2E4\uACFC
+      \uD29C\uBE0C\uB97C \uAC00\uBCCD\uAC8C \uACE0\uC815\uD574\uC90D\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 7b88a14d209684e76a4acfff7ce97dd0,
+      type: 3}
+  - guideTitle: "\uC5F0\uC18C\uC2E4 \uB215\uD788\uAE30"
+    guideDescription: "\uCD9C\uAD6C\uB9C1\uC744 \uACB0\uD569\uD558\uAE30 \uC704\uD558\uC5EC
+      \uC5F0\uC18C\uC2E4\uC744 \uB215\uD600\uC90D\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: e0f9f346183904bc3a7cc69a47797f51,
+      type: 3}
+  - guideTitle: "\uCD9C\uAD6C\uB9C1 \uACB0\uD569"
+    guideDescription: "\uBD84\uB9AC\uD588\uB358 \uCD9C\uAD6C\uB9C1\uC744 \uC900\uBE44\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: bf4a5c0ead86946568864e2cbad5b1bc,
+      type: 3}
+  - guideTitle: "\uCD9C\uAD6C\uB9C1 \uACB0\uD569"
+    guideDescription: "\uCD9C\uAD6C\uB9C1\uC744 \uACB0\uD569\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 8825fa05628a748029269e4ec900c5bf,
+      type: 3}
+  - guideTitle: "\uB7EC\uADF8\uBCFC\uD2B8 \uACB0\uD569"
+    guideDescription: "\uB7EC\uADF8\uBCFC\uD2B8\uB97C \uC900\uBE44\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 2adc974400702426085e6c0caeab41db,
+      type: 3}
+  - guideTitle: "\uB7EC\uADF8\uBCFC\uD2B8 \uACB0\uD569"
+    guideDescription: "\uB7EC\uADF8\uBCFC\uD2B8\uC5D0 \uACE0\uC628 \uADF8\uB9AC\uC2A4\uB97C
+      \uBC1C\uB77C\uC90D\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 9065ef42ca13f40edbe91d829f72f124,
+      type: 3}
+  - guideTitle: "\uB7EC\uADF8\uBCFC\uD2B8 \uACB0\uD569"
+    guideDescription: "\uACE0\uC628 \uADF8\uB9AC\uC2A4\uB294 \uB7EC\uADF8\uBCFC\uD2B8\uC758
+      \uACE0\uCC29\uC744 \uBC29\uC9C0\uD574 \uC90D\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: e53998414e7904c7c804a1f096d5ca91,
+      type: 3}
+  - guideTitle: "\uB7EC\uADF8\uBCFC\uD2B8 \uACB0\uD569"
+    guideDescription: "\uB7EC\uADF8\uBCFC\uD2B8\uB97C \uAD6C\uBA4D\uC5D0 \uB9DE\uAC8C
+      \uBC30\uCE58\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 9470428d521944252a8ca343c79677c9,
+      type: 3}
+  - guideTitle: "\uB7EC\uADF8\uBCFC\uD2B8 \uACB0\uD569"
+    guideDescription: "\uB7EC\uADF8\uBCFC\uD2B8\uB97C \uCD9C\uAD6C\uB9C1\uC5D0 \uACB0\uD569\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 75a2c9a2f69144ab9aa39306f134f432,
+      type: 3}
+  - guideTitle: "\uB7EC\uADF8\uBCFC\uD2B8 \uACB0\uD569"
+    guideDescription: "7/16\uC778\uCE58 \uC18C\uCF13\uACFC \uB80C\uCE58\uB97C \uC900\uBE44\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 6a452c5309d16464881d937251d2109c,
+      type: 3}
+  - guideTitle: "\uB7EC\uADF8\uBCFC\uD2B8 \uACB0\uD569"
+    guideDescription: "\uB80C\uCE58\uB97C \uC774\uC6A9\uD558\uC5EC \uB7EC\uADF8\uBCFC\uD2B8\uB97C
+      \uACB0\uD569\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 1bfc8cc7ec4e6498a8145e47854ab346,
+      type: 3}
+  - guideTitle: "\uB7EC\uADF8\uBCFC\uD2B8 \uACB0\uD569"
+    guideDescription: "\uB7EC\uADF8\uBCFC\uD2B8 1\uAC1C\uAC00 \uACB0\uD569\uB418\uC5C8\uC2B5\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: ebaf4b5553998424bb783a6060ff4a7a,
+      type: 3}
+  - guideTitle: "\uB7EC\uADF8\uBCFC\uD2B8 \uACB0\uD569"
+    guideDescription: "\uBC18\uB300\uCABD \uC791\uC5C5\uC744 \uC704\uD574 \uC5F0\uC18C\uC2E4\uC744
+      \uD68C\uC804\uC2DC\uD0B5\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: b391705c1e7a14df18a438de20279035,
+      type: 3}
+  - guideTitle: "\uB7EC\uADF8\uBCFC\uD2B8 \uACB0\uD569"
+    guideDescription: "\uC81C\uAC70\uD588\uB358 \uB7EC\uADF8\uBCFC\uD2B8\uB97C \uC900\uBE44\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 003bae5418871452680924660b7952f2,
+      type: 3}
+  - guideTitle: "\uB7EC\uADF8\uBCFC\uD2B8 \uACB0\uD569"
+    guideDescription: "\uB7EC\uADF8\uBCFC\uD2B8\uC5D0 \uACE0\uC628 \uADF8\uB9AC\uC2A4\uB97C
+      \uBC1C\uB77C\uC90D\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 1f060c8724eef44518ff154540778e7e,
+      type: 3}
+  - guideTitle: "\uB7EC\uADF8\uBCFC\uD2B8 \uACB0\uD569"
+    guideDescription: "\uACE0\uC628 \uADF8\uB9AC\uC2A4\uB294 \uB7EC\uADF8\uBCFC\uD2B8\uC758
+      \uACE0\uCC29\uC744 \uBC29\uC9C0\uD574 \uC90D\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 979f549abf32747b1891a30c7aa38479,
+      type: 3}
+  - guideTitle: "\uB7EC\uADF8\uBCFC\uD2B8 \uACB0\uD569"
+    guideDescription: "\uB7EC\uADF8\uBCFC\uD2B8\uB97C \uAD6C\uBA4D\uC5D0 \uB9DE\uAC8C
+      \uBC30\uCE58\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 3e578b771e11e4b6ca2d187c1f673e59,
+      type: 3}
+  - guideTitle: "\uB7EC\uADF8\uBCFC\uD2B8 \uACB0\uD569"
+    guideDescription: "\uB7EC\uADF8\uBCFC\uD2B8\uB97C \uCD9C\uAD6C\uB9C1\uC5D0 \uACB0\uD569\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 65c825147a9944039b770be03a1e74de,
+      type: 3}
+  - guideTitle: "\uB7EC\uADF8\uBCFC\uD2B8 \uACB0\uD569"
+    guideDescription: "7/16\uC778\uCE58 \uC18C\uCF13\uACFC \uB80C\uCE58\uB97C \uC900\uBE44\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 3979a370159f047dc90d36636ce2a8ac,
+      type: 3}
+  - guideTitle: "\uB7EC\uADF8\uBCFC\uD2B8 \uACB0\uD569"
+    guideDescription: "\uB80C\uCE58\uB97C \uB7EC\uADF8\uBCFC\uD2B8\uC5D0 \uB9DE\uCD94\uC5B4
+      \uC90D\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: f39f3df7be05a4028836dd1abf2b8c4f,
+      type: 3}
+  - guideTitle: "\uB7EC\uADF8\uBCFC\uD2B8 \uACB0\uD569"
+    guideDescription: "\uB80C\uCE58\uB97C \uC774\uC6A9\uD558\uC5EC \uB7EC\uADF8\uBCFC\uD2B8\uB97C
+      \uACB0\uD569\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: d022c442ef9254b048feb5317e3fb0e5,
+      type: 3}
+  - guideTitle: "\uB7EC\uADF8\uBCFC\uD2B8 \uACB0\uD569"
+    guideDescription: "\uB7EC\uADF8\uBCFC\uD2B8 \uBAA8\uB450 \uACB0\uD569\uB418\uC5C8\uC2B5\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 24284e0b3565541cfbf490a2d58f678b,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120"
+    guideDescription: "\uC548\uC804\uACB0\uC120\uC744 \uC704\uD574 \uC640\uC774\uC5B4\uB97C
+      \uC900\uBE44\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: d895f996ac55a4659af9be78aa8277ea,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120"
+    guideDescription: "\uD0ED\uC5D0 \uC640\uC774\uC5B4\uB97C \uBB36\uAE30\uC704\uD574
+      \uC640\uC774\uC5B4\uB97C \uC5EE\uC5B4\uC90D\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 36a928bc1407749319380d17c1e41ce5,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120"
+    guideDescription: "\uC640\uC774\uC5B4\uB97C \uD655\uC778\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: f52ee48bf819e415f84b2a863c71fd74,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120"
+    guideDescription: "\uC640\uC774\uC5B4 \uD2B8\uC704\uC2A4\uD130\uB97C \uC900\uBE44\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: c3d10e0a4cad84f10a6522f875258305,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120"
+    guideDescription: "\uC640\uC774\uC5B4 \uD2B8\uC704\uC2A4\uD130\uB97C \uC774\uC6A9\uD574
+      \uC640\uC774\uC5B4\uB97C \uD2C0\uC5B4\uC90D\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 81210c3d9b8aa4cf5980795c4d189f99,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120"
+    guideDescription: "\uD0ED\uC5D0 \uC640\uC774\uC5B4\uB97C \uBB36\uC2B5\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 3332bcd4212534bfd85d8dd858b568ee,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120"
+    guideDescription: "\uC640\uC774\uC5B4\uB97C \uD655\uC778\uD569\uB2C8\uB2E4. "
+    guideDescriptionVoice: {fileID: 8300000, guid: 97d813e6bdc1c4b469e65d2a4a908ae3,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120"
+    guideDescription: "\uC640\uC774\uC5B4 \uD2B8\uC704\uC2A4\uD130\uB97C \uC900\uBE44\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 5cbdbb077c9af49af90c288817a102e0,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120"
+    guideDescription: "\uC640\uC774\uC5B4 \uD2B8\uC704\uC2A4\uD130\uB97C \uC774\uC6A9\uD574
+      \uC640\uC774\uC5B4\uB97C \uD2C0\uC5B4\uC90D\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 9adc40dd756c3451798e9b42e68f8ee1,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120"
+    guideDescription: "\uC640\uC774\uC5B4\uB97C \uD655\uC778\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 2b35562dd31aa4612b498970137c8735,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120"
+    guideDescription: "\uB2E4\uC774\uC5B4\uACE0\uB110 \uCEE4\uD305 \uD50C\uB77C\uC774\uC5B4\uB97C
+      \uC900\uBE44\uD569\uB2C8\uB2E4. "
+    guideDescriptionVoice: {fileID: 8300000, guid: 6e10888f45b364b039c1baf6822f7426,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120"
+    guideDescription: "\uD53C\uADF8\uD14C\uC77C\uC744 \uACE0\uB824\uD558\uC5EC \uC801\uB2F9\uD55C
+      \uC704\uCE58\uB97C \uB04A\uC5B4\uC90D\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 262706b6d88a74aee87f99362896f786,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120"
+    guideDescription: "\uD53C\uADF8\uD14C\uC77C\uB85C \uB9C8\uBB34\uB9AC \uD574 \uC90D\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 93d23175a8d2948c08a68841f530d5c3,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120"
+    guideDescription: "\uB9C8\uCC2C\uAC00\uC9C0\uB85C \uBC18\uB300\uCABD \uC791\uC5C5\uC744
+      \uC900\uBE44\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 4925943f6bdf64f18930c4fe80975cc3,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120"
+    guideDescription: "\uC548\uC804\uACB0\uC120\uC744 \uC704\uD574 \uC640\uC774\uC5B4\uB97C
+      \uC900\uBE44\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 666456ac203a047f885ec6a6ff3d98d4,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120"
+    guideDescription: "\uD0ED\uC5D0 \uC640\uC774\uC5B4\uB97C \uBB36\uAE30\uC704\uD574
+      \uC640\uC774\uC5B4\uB97C \uC5EE\uC5B4\uC90D\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 0a81c5f41c6b14a3dbf626bb8876ff58,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120"
+    guideDescription: "\uC640\uC774\uC5B4 \uD2B8\uC704\uC2A4\uD130\uB97C \uC900\uBE44\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 98c25998b8f9346c0b36d1215455d1aa,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120"
+    guideDescription: "\uC640\uC774\uC5B4 \uD2B8\uC704\uC2A4\uD130\uB97C \uC774\uC6A9\uD574
+      \uC640\uC774\uC5B4\uB97C \uD2C0\uC5B4\uC90D\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 669eb79b80523408da8108e39561c015,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120"
+    guideDescription: "\uC640\uC774\uC5B4\uB97C \uD655\uC778\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: f776f2c1c415d4973a9920be7836e911,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120"
+    guideDescription: "\uD0ED\uC5D0 \uC640\uC774\uC5B4\uB97C \uBB36\uC2B5\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 409b4b86d079d483686d36c27fdc07bb,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120"
+    guideDescription: "\uC640\uC774\uC5B4 \uD2B8\uC704\uC2A4\uD130\uB97C \uC900\uBE44\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: cd7cf1262884c4d0a86b2c3be84ea7ed,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120"
+    guideDescription: "\uC640\uC774\uC5B4 \uD2B8\uC704\uC2A4\uD130\uB97C \uC774\uC6A9\uD574
+      \uC640\uC774\uC5B4\uB97C \uD2C0\uC5B4\uC90D\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 60d26aba1b41a4e66bc0bcf24ca5172d,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120"
+    guideDescription: "\uC640\uC774\uC5B4\uB97C \uD655\uC778\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: e35153eef671e4be1a7e7e0fa14c1d45,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120"
+    guideDescription: "\uB2E4\uC774\uC5B4\uACE0\uB110 \uCEE4\uD305 \uD50C\uB77C\uC774\uC5B4\uB97C
+      \uC900\uBE44\uD569\uB2C8\uB2E4. "
+    guideDescriptionVoice: {fileID: 8300000, guid: 68709ea50d92c4e5498e939cb107fd9b,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120"
+    guideDescription: "\uD53C\uADF8\uD14C\uC77C\uC744 \uACE0\uB824\uD558\uC5EC \uC801\uB2F9\uD55C
+      \uC704\uCE58\uB97C \uB04A\uC5B4\uC90D\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: d8e25be83c6eb4608873dd62786d20d2,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120"
+    guideDescription: "\uD53C\uADF8\uD14C\uC77C\uB85C \uB9C8\uBB34\uB9AC \uD574 \uC90D\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 16df6e718112b4241ab6fc4ff88e75e2,
+      type: 3}
+  - guideTitle: "\uC5F0\uC18C\uC2E4 \uC138\uC6B0\uAE30"
+    guideDescription: "\uD06C\uB85C\uC2A4 \uC774\uADF8\uB2C8\uC158 \uD29C\uBE0C\uC758
+      \uC548\uC804\uACB0\uC120 \uC791\uC5C5\uC744 \uC704\uD574 \uC5F0\uC18C\uC2E4\uC744
+      \uC138\uC6CC\uC90D\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 32c016660eb64436e800946a446361c0,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120"
+    guideDescription: "\uC640\uC774\uC5B4 \uD2B8\uC704\uC2A4\uD130\uB97C \uC900\uBE44\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 89e2e2937e3014dec9d00eaecb090f20,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120"
+    guideDescription: "\uC640\uC774\uC5B4 \uD2B8\uC704\uC2A4\uD130\uB97C \uC774\uC6A9\uD574
+      \uC640\uC774\uC5B4\uB97C \uD2C0\uC5B4\uC90D\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 8782fb3e8fd6c40fe906e50915029597,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120"
+    guideDescription: "\uC640\uC774\uC5B4\uB97C \uD655\uC778\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 698bbf319a8df472a9b5ae4099550221,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120"
+    guideDescription: "\uB2E4\uC774\uC5B4\uACE0\uB110 \uCEE4\uD305 \uD50C\uB77C\uC774\uC5B4\uB97C
+      \uC900\uBE44\uD569\uB2C8\uB2E4. "
+    guideDescriptionVoice: {fileID: 8300000, guid: 49f882349d2334e78a8c067db4f18f34,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120"
+    guideDescription: "\uD53C\uADF8\uD14C\uC77C\uC744 \uACE0\uB824\uD558\uC5EC \uC801\uB2F9\uD55C
+      \uC704\uCE58\uB97C \uB04A\uC5B4\uC90D\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 9eb27771a0f5d48dc8327c280bf2f11a,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120"
+    guideDescription: "\uC640\uC774\uC5B4\uB97C \uD655\uC778\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: d6591103465ef4b11a000d032d93e15f,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120"
+    guideDescription: "\uB871\uB178\uC988 \uD50C\uB77C\uC774\uC5B4\uB97C \uC900\uBE44\uD569\uB2C8\uB2E4. "
+    guideDescriptionVoice: {fileID: 8300000, guid: a371f8855780d41b9bd955d08b2252af,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120"
+    guideDescription: "\uB871\uB178\uC988 \uD314\uB77C\uC774\uC5B4\uB85C \uD53C\uADF8\uD14C\uC77C
+      \uD569\uB2C8\uB2E4. "
+    guideDescriptionVoice: {fileID: 8300000, guid: e5d181358c990432f85f90d3801f055b,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120"
+    guideDescription: "\uD53C\uADF8\uD14C\uC77C\uC774 \uBCF4\uC774\uC9C0 \uC54A\uB3C4\uB85D
+      \uB4B7\uCABD\uC73C\uB85C \uC228\uACA8\uC90D\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 3d9538d2bbefb4336a6b4ca99a2cf067,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120"
+    guideDescription: "\uBC18\uB300\uD3B8\uB3C4 \uB9C8\uCC2C\uAC00\uC9C0\uB85C \uC791\uC5C5\uD569\uB2C8\uB2E4. "
+    guideDescriptionVoice: {fileID: 8300000, guid: 08acbebe4918e4ecfbfa576a266813cd,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120"
+    guideDescription: "\uC640\uC774\uC5B4 \uD2B8\uC704\uC2A4\uD130\uB97C \uC900\uBE44\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: de3ef778d57004b43a29789766247e35,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120"
+    guideDescription: "\uC640\uC774\uC5B4 \uD2B8\uC704\uC2A4\uD130\uB97C \uC774\uC6A9\uD574
+      \uC640\uC774\uC5B4\uB97C \uD2C0\uC5B4\uC90D\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 0ee21a1aa41f04bb593fda5753417155,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120"
+    guideDescription: "\uC640\uC774\uC5B4\uB97C \uD655\uC778\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: b154f517fc29641ccaded59446035912,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120"
+    guideDescription: "\uB2E4\uC774\uC5B4\uACE0\uB110 \uCEE4\uD305 \uD50C\uB77C\uC774\uC5B4\uB97C
+      \uC900\uBE44\uD569\uB2C8\uB2E4. "
+    guideDescriptionVoice: {fileID: 8300000, guid: c013aeb84e0554885a24b17e579341a7,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120"
+    guideDescription: "\uD53C\uADF8\uD14C\uC77C\uC744 \uACE0\uB824\uD558\uC5EC \uC801\uB2F9\uD55C
+      \uC704\uCE58\uB97C \uB04A\uC5B4\uC90D\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: e8e0cea6443514db8b2ec7c5f1b9425d,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120"
+    guideDescription: "\uC640\uC774\uC5B4\uB97C \uD655\uC778\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 1f2dc96c1c6fa4146b29a8634839bafa,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120"
+    guideDescription: "\uB871\uB178\uC988 \uD50C\uB77C\uC774\uC5B4\uB97C \uC900\uBE44\uD569\uB2C8\uB2E4. "
+    guideDescriptionVoice: {fileID: 8300000, guid: 02194a393bc63472d9a1d2fcb3a351fd,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120"
+    guideDescription: "\uB871\uB178\uC988 \uD314\uB77C\uC774\uC5B4\uB85C \uD53C\uADF8\uD14C\uC77C
+      \uD569\uB2C8\uB2E4. "
+    guideDescriptionVoice: {fileID: 8300000, guid: ff581878383d14a319552ac0ebeb7d4a,
+      type: 3}
+  - guideTitle: "\uC548\uC804\uACB0\uC120"
+    guideDescription: "\uD53C\uADF8\uD14C\uC77C\uC774 \uBCF4\uC774\uC9C0 \uC54A\uB3C4\uB85D
+      \uB4B7\uCABD\uC73C\uB85C \uC228\uACA8\uC90D\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 01a0b59be3e0f475f9098287432d6cdf,
+      type: 3}
+  - guideTitle: "\uC644\uB8CC"
+    guideDescription: "\uC218\uACE0\uD558\uC168\uC2B5\uB2C8\uB2E4. \uC5F0\uC18C\uC2E4
+      \uBD84\uD574\uC870\uB9BD\uC744 \uBAA8\uB450 \uC644\uB8CC\uD558\uC600\uC2B5\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 864e578c1ebb2432a8dcf869e0576663,
+      type: 3}

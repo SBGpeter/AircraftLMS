@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba11c9a4b4a274f21a59216a5f0706b6, type: 3}
+  m_Name: GuideTextList_Turbine_Section
+  m_EditorClassIdentifier: 
+  guideLists:
+  - guideTitle: "\uD130\uBE48 \uB178\uC990(Turbine nozzle)"
+    guideDescription: "\uACE0\uC628, \uACE0\uC555\uC758 \uAC00\uC2A4\uB97C \uD33D\uCC3D\uD558\uC5EC
+      \uAC00\uC18D\uC2DC\uD0A4\uACE0 \uD130\uBE48 \uB85C\uD130\uC5D0 \uAC00\uC7A5
+      \uD6A8\uACFC\uC801\uC778 \uAC01\uB3C4\uB85C \uD750\uB97C \uC218 \uC788\uB3C4\uB85D
+      \uBC29\uD5A5\uC744 \uBC14\uAFB8\uC5B4\uC90D\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 517aeab992ea840558446fbf33a343fc,
+      type: 3}
+  - guideTitle: "\uD130\uBE48 \uD720(Turbine wheel)"
+    guideDescription: "\uC5F0\uC18C\uAC00\uC2A4\uC758 \uC5F4\uC5D0\uB108\uC9C0\uB97C
+      \uAE30\uACC4\uC801 \uC5D0\uB108\uC9C0\uB85C \uBCC0\uD658\uC2DC\uD0A4\uACE0
+      \uC545\uC138\uC11C\uB9AC\uB294 \uC778\uB137\uAE30\uC5B4\uBC15\uC2A4, \uC548\uCABD\uB808\uC774\uB514\uC5BC
+      \uAD6C\uB3D9\uCD95, \uBC14\uAE65\uCABD \uB808\uC774\uB514\uC5BC \uAD6C\uB3D9\uCD95,
+      \uC218\uD3C9 \uAD6C\uB3D9\uCD95, \uBCF4\uAE30 \uAE30\uC5B4\uBC15\uC2A4, \uD2B8\uB79C\uC2A4\uD130
+      \uAE30\uC5B4\uBC15\uC2A4\uB85C \uAD6C\uC131\uB418\uC5B4 \uC788\uC73C\uBA70
+      \uC555\uCD95\uAE30\uB97C \uAD6C\uB3D9\uD569\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: fd5f9672b7b5a444094e029bb192c68e,
+      type: 3}
+  - guideTitle: "\uC26C\uB77C\uC6B0\uB4DC \uB9C1 (Shroud ring)"
+    guideDescription: "\uD130\uBE48 \uBC84\uD0B7\uACFC \uD130\uBE48 \uCF00\uC774\uC2F1
+      \uC0AC\uC774\uC5D0 \uB07C\uC6CC\uC838 \uD130\uBE48 \uCF00\uC774\uC2F1\uACFC
+      \uBC30\uAE30 \uCF58 \uC0AC\uC774\uC758 \uC5F0\uC18C\uAC00\uC2A4 \uB204\uC124
+      \uBC29\uC9C0\uD55C\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: c3b935b0e3d6441dea1073f7baa2c27c,
+      type: 3}
+  - guideTitle: "\uD130\uBE48 \uCF00\uC774\uC2F1(Turbine casing)"
+    guideDescription: "\uD130\uBE48\uC744 \uB458\uB7EC\uC2F8\uACE0 \uC788\uB294 \uCF00\uC774\uC2A4\uB85C
+      \uD130\uBE48\uB178\uC990 \uBC0F \uC26C\uB77C\uC6B0\uB4DC \uB9C1\uC774 \uBD80\uCC29\uB418\uC5B4
+      \uC788\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 9c48267b796c2480e8b0767757682193,
+      type: 3}

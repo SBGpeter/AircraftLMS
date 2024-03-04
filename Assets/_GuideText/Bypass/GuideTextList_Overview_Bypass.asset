@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba11c9a4b4a274f21a59216a5f0706b6, type: 3}
+  m_Name: GuideTextList_Overview_Bypass
+  m_EditorClassIdentifier: 
+  guideLists:
+  - guideTitle: "Bypass \uACF5\uAE30 \uD761\uC785 \uBD80\uBD84(Air Inlet Section)"
+    guideDescription: "\uAC00\uC2A4\uD130\uBE48\uC5D4\uC9C4\uC774 \uD544\uC694\uB85C
+      \uD558\uB294 \uACF5\uAE30\uB97C \uC555\uCD95\uAE30\uB85C \uACF5\uAE09\uD574\uC8FC\uB294
+      \uD1B5\uB85C \uC555\uCD95\uAE30\uC758 \uC815\uC0C1 \uC791\uB3D9\uC5D0 \uD544\uC694\uD55C
+      \uACF5\uAE30\uB7C9\uACFC \uACF5\uAE30 \uC18D\uB3C4\uB97C \uC81C\uC5B4\uD560
+      \uC218 \uC788\uB3C4\uB85D \uC124\uACC4\uD574\uC90D\uB2C8\uB2E4. \uD56D\uACF5\uAE30
+      \uACE0\uC18D\uBE44\uD589 \uC2DC\uC5D0\uB294 \uB4E4\uC5B4\uC624\uB294 \uACF5\uAE30\uC758
+      \uC18D\uB3C4\uB97C \uAC10\uC18D \uC2DC\uD0A4\uBA74\uC11C \uC555\uB825\uC744
+      \uC0C1\uC2B9\uC2DC\uD0A4\uACE0, \uC9C0\uC0C1 \uC815\uC9C0 \uC2DC\uC5D0\uB294
+      \uC815\uC9C0\uB418\uC5B4 \uC788\uB294 \uB300\uAE30\uC758 \uACF5\uAE30\uB97C
+      \uBE68\uC544\uB4E4\uC5EC \uC555\uCD95\uAE30\uAC00 \uD544\uC694\uB85C \uD558\uB294
+      \uC18D\uB3C4\uAE4C\uC9C0 \uAC00\uC18D\uD558\uAC8C \uB418\uC5B4\uC9D1\uB2C8\uB2E4.
+      \uC544\uC74C\uC18D \uD56D\uACF5\uAE30\uC5D0\uB294 \uD655\uC0B0\uD615 \uD761\uC785\uAD6C\uB97C
+      \uC0AC\uC6A9 \uD558\uACE0  \uCD08\uC74C\uC18D \uD56D\uACF5\uAE30\uC5D0\uB294
+      \uCDA9\uACA9\uD30C\uB97C \uC774\uC6A9\uD558\uC5EC \uC18D\uB3C4\uB97C \uAC10\uC18C\uC2DC\uD0A4\uACE0
+      \uC555\uB825\uC744 \uC99D\uAC00\uC2DC\uD0A4\uB294 \uCD08\uC74C\uC18D\uD761\uC785\uAD6C\uC5D0
+      \uC0AC\uC6A9\uB429\uB2C8\uB2E4. "
+    guideDescriptionVoice: {fileID: 8300000, guid: 9142d1b059712494ab84ff12530ffed1,
+      type: 3}
+  - guideTitle: "Bypass \uC555\uCD95\uAE30 \uBD80\uBD84(Compressor Section)"
+    guideDescription: "\uC720\uC785\uB418\uB294 \uACF5\uAE30\uB97C \uC555\uCD95\uD558\uC5EC
+      \uACF5\uAE30 \uC555\uB825\uC744 \uC99D\uAC00\uC2DC\uD0A4\uB294 \uC5ED\uD560\uC744
+      \uD558\uB294 \uBD80\uBD84\uC774\uB2E4. "
+    guideDescriptionVoice: {fileID: 8300000, guid: 4021fd13ceafd43e294253532f6e83e3,
+      type: 3}
+  - guideTitle: "Bypass \uC5F0\uC18C\uC2E4 \uBD80\uBD84(Combustion Section)"
+    guideDescription: "\uC555\uCD95\uAE30\uC5D0\uC11C \uC720\uC785\uB41C \uACF5\uAE30\uAC00
+      \uC5F0\uB8CC\uC640 \uC11E\uC5EC \uC5F0\uC18C\uC2DC\uD0A4\uB294 \uC5ED\uD560\uC744
+      \uD558\uB294 \uBD80\uBD84\uC774\uB2E4. "
+    guideDescriptionVoice: {fileID: 8300000, guid: 72b8ee1ede9e844b79add0bb552de223,
+      type: 3}
+  - guideTitle: "Bypass \uD130\uBE48 \uBD80\uBD84(Turbine Section)"
+    guideDescription: "\uC5F0\uC18C\uD558\uB294 \uACF5\uAE30\uC758 \uD33D\uCC3D\uB825\uC744
+      \uC774\uC6A9\uD558\uC5EC \uD130\uBE48\uC744 \uD68C\uC804\uC2DC\uCF1C \uB3D9\uB825\uC744
+      \uC5BB\uB294 \uC5ED\uD560\uC744 \uD558\uB294 \uBD80\uBD84\uC774\uB2E4. "
+    guideDescriptionVoice: {fileID: 8300000, guid: 02a1c7ca2a7d841079e41f01455ce0a1,
+      type: 3}
+  - guideTitle: "Bypass \uBC30\uAE30 \uBD80\uBD84(Exhaust Section)"
+    guideDescription: "\uC5F0\uC18C\uB41C \uACF5\uAE30\uAC00 \uD33D\uCC3D\uD558\uBA74\uC11C
+      \uBC30\uAE30\uAD6C\uB97C \uD1B5\uD558\uC5EC \uACE0\uC18D\uC758 \uC81C\uD2B8
+      \uAE30\uB958\uB97C \uB0B4\uBFDC\uACE0 \uCD94\uB825\uC744 \uC5BB\uB294 \uC5ED\uD560\uC744
+      \uD558\uB294 \uBD80\uBD84\uC774\uB2E4. "
+    guideDescriptionVoice: {fileID: 8300000, guid: 6e1d97c4e5cae4893b4c4b0341768949,
+      type: 3}

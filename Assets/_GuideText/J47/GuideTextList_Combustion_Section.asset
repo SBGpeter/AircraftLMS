@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba11c9a4b4a274f21a59216a5f0706b6, type: 3}
+  m_Name: GuideTextList_Combustion_Section
+  m_EditorClassIdentifier: 
+  guideLists:
+  - guideTitle: "\uB0B4\uBD80 \uB77C\uC774\uB108(Inner Iiner)"
+    guideDescription: "\uB8E8\uBC84(Louver)\uC640 \uD640(Hole)\uB85C \uAD6C\uBD84\uB418\uC5B4
+      \uC788\uC73C\uBA70 \uB8E8\uBC84(Louver)\uB294 \uC774\uB108\uC758 \uBCBD\uBA74\uC5D0
+      \uC587\uC740 \uACF5\uAE30\uB9C9\uC744 \uD615\uC131\uD558\uC5EC \uBD88\uAF43\uC774
+      \uC5F0\uC18C\uC2E4 \uBCBD\uBA74\uC5D0 \uC9C1\uC811 \uB2FF\uC9C0\uBABB\uD558\uAC8C
+      \uD568\uC73C\uB85C\uC368 \uACE0\uC5F4\uB85C\uBD80\uD130 \uC5F0\uC18C\uC2E4\uC744
+      \uBCF4\uD638\uD574\uC8FC\uACE0, \uD640(Hole)\uC740 \uD654\uC5FC\uC774 \uB77C\uC774\uB108\uC758
+      \uBCBD\uBA74\uC5D0 \uC9C1\uC811 \uB2FF\uC9C0 \uBABB\uD558\uB3C4\uB85D \uAC00\uC6B4\uB370\uB85C
+      \uBAA8\uC544\uC8FC\uBA70, \uC5F0\uC18C\uC5D0 \uD544\uC694\uD55C \uACF5\uAE30\uB97C
+      \uACF5\uAE09\uD574\uC90D\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 9c868145b90d540c78280f3b8bf0694b,
+      type: 3}
+  - guideTitle: "\uC678\uBD80 \uC5F0\uC18C\uC2E4(Outer casing)"
+    guideDescription: "\uC5D4\uC9C4\uC744 \uAC70\uCCD0 \uC9C0\uB098\uAC00\uB294 \uACF5\uAE30\uC758
+      \uC628\uB3C4\uB97C \uC0C1\uC2B9\uC2DC\uD0A4\uB294 \uC5F0\uC18C \uACFC\uC815\uC774
+      \uC774\uB8E8\uC5B4\uC9C4\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 83c02ec1d85b640d4a27b5056cda91af,
+      type: 3}
+  - guideTitle: "\uD2B8\uB79C\uC9C0\uC200 \uB77C\uC774\uB108(Transition liner)"
+    guideDescription: "\uC5F0\uC18C\uC2E4\uACFC \uD130\uBE48\uB178\uC990 \uC0AC\uC774(\uD130\uBE48
+      \uCF00\uC774\uC2F1 \uB0B4\uBD80)\uC5D0 8\uAC1C\uAC00 \uC7A5\uCC29\uB418\uC5B4
+      \uC788\uC73C\uBA70 \uC5F0\uC18C\uC2E4\uC5D0\uC11C \uB098\uC628 \uC6D0\uD615\uC758
+      \uAC00\uC2A4\uB97C \uB178\uC990 \uB2E4\uC774\uC5B4\uD504\uB7A8\uC5D0 \uACE0\uB9AC\uD615\uC73C\uB85C
+      \uBCF4\uB0B4\uC90D\uB2C8\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 8590f0ac9f863404d80ef7ce3d889c17,
+      type: 3}
+  - guideTitle: "\uBE0C\uB808\uB354 (Breather)"
+    guideDescription: "\uC724\uD65C\uACC4\uD1B5\uACFC \uB300\uAE30\uC640\uC758 \uD1B5\uB85C\uB85C
+      \uC724\uD65C\uACC4\uD1B5\uC758 \uC555\uB825\uC744 \uC77C\uC815\uD558\uAC8C
+      \uC720\uC9C0\uD558\uB294 \uC5ED\uD560\uC744 \uD55C\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: 04d5cd4bf7a154c138726cfc789ebede,
+      type: 3}
+  - guideTitle: "\uD130\uBE48 \uD504\uB808\uC784 (Turbine frame)"
+    guideDescription: "\uD130\uBE48 \uB0C9\uAC01\uC744 \uC704\uD55C \uC555\uCD95\uAE30\uC758
+      8\uB2E8\uACC4 \uACF5\uAE30 \uD1B5\uB85C\uC774\uB2E4."
+    guideDescriptionVoice: {fileID: 8300000, guid: d72ac476c9606473a8f74824743e2131,
+      type: 3}

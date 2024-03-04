@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7573553043832368022
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3004256451292156049}
+  - component: {fileID: 9044867014161333981}
+  m_Layer: 0
+  m_Name: HTTPManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3004256451292156049
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7573553043832368022}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9044867014161333981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7573553043832368022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8246e42f3dd82c42be38b37d2a2795c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UsingSessionCookie: 0
+  id: student01
+  pw: 1234qwer!
+  courseCodeCode: 20240001
+  courseContentCode: 2024000101
+  recentlyEnrolledCourseId:
+    recently_enrolled_course_id: -1
+  courseLearningContentId: 8
+  lessonItemId: 14
+  lessonSubitemId: 16
+  startLearning:
+    is_deleted: 
+    code: 
+    latest_student_attendance_log:
+      course_id: 
+      student_user_idx: 
+      lesson_subitem_required_learning_time_in_seconds: 
+      lesson_item_title: 
+      lesson_subitem_id: 
+      last_modified_date: 
+      lesson_id: 
+      lesson_subitem_title: 
+      course_learning_content_id: 
+      lesson_title: 
+      total_learning_time_in_seconds: 
+      registered_date: 
+      lesson_item_id: 
+      timestamp: 
+    last_modified_date: 
+    current_student_attendance_log:
+      course_id: 
+      lesson_item_student_attendance_status_code: 
+      student_user_idx: 
+      lesson_subitem_id: 
+      last_modified_date: 
+      lesson_id: 
+      course_learning_content_id: 
+      lesson_student_attendance_status_code: 
+      total_learning_time_in_seconds: 
+      registered_date: 
+      lesson_subitem_student_attendance_status_code: 
+      lesson_item_id: 
+      timestamp: 
+    id: 
+    registered_date: 
+    title: 
+    student_attendance:
+      status_code: 
+      student_user_idx: 
+      student_user_id: 
+      registered_from_country: 
+      last_modified_date: 
+      is_manually_modified: 
+      last_modified_by_user_idx: 
+      last_modified_from_device_type_code: 
+      course_learning_content_id: 
+      status_updated_date: 
+      item_list: []
+      registered_from_ip_address: 
+      course_learning_content_type_code: 
+      lesson_title: 
+      registered_by_user_idx: 
+      last_modified_from_ip_address: 
+      registered_from_device_type_code: 
+      total_learning_time_in_seconds: 
+      registered_date: 
+      course_learning_content_title: 
+      learning_progress: 
+      last_modified_from_country: 
+      course_learning_content_attendance_count: 
+    is_available: 

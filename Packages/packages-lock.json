@@ -9,8 +9,17 @@
       },
       "hash": "730457a83a672e09323ade3deed7187cdf97c227"
     },
+    "com.tivadar.best.http": {
+      "version": "file:com.tivadar.best.http",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.burst": "1.8.10",
+        "com.unity.profiling.core": "1.0.0"
+      }
+    },
     "com.unity.burst": {
-      "version": "1.7.4",
+      "version": "1.8.10",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -89,6 +98,13 @@
       "dependencies": {
         "com.unity.modules.physics": "1.0.0"
       },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.profiling.core": {
+      "version": "1.0.2",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.core": {

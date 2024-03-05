@@ -120,6 +120,7 @@ namespace X2R.HTTP
         private void Start()
         {
             CookieJar.Clear();
+            DontDestroyOnLoad(this);
         }
 
         public void Init(string _id, string _pw, string _courseCodeCode, string _courseContentCode, OnRecivePacket callback)
@@ -161,21 +162,21 @@ namespace X2R.HTTP
 
         public void Update()
         {
-            if (Input.GetKeyDown(KeyCode.Alpha1))
-            {
-                login.send(id, pw);
-            }
-            
-            if (Input.GetKeyDown(KeyCode.Alpha2))
-            {
-                if (IsRedayToLearning)
-                {
-                    startLearning.send(recentlyEnrolledCourseId.recently_enrolled_course_id.ToString (),
-                    courseLearningContentId,
-                    lessonItemId,
-                    lessonSubitemId);
-                }
-            }
+            //if (Input.GetKeyDown(KeyCode.Alpha1))
+            //{
+            //    login.send(id, pw);
+            //}
+
+            //if (Input.GetKeyDown(KeyCode.Alpha2))
+            //{
+            //    if (IsRedayToLearning)
+            //    {
+            //        startLearning.send(recentlyEnrolledCourseId.recently_enrolled_course_id.ToString (),
+            //        courseLearningContentId,
+            //        lessonItemId,
+            //        lessonSubitemId);
+            //    }
+            //}
 
 #if UPDATE_LEARNING_PROGRESS
             if (Input.GetKeyDown(KeyCode.Alpha3))

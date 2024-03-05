@@ -372,67 +372,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &398663988
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 398663990}
-  - component: {fileID: 398663989}
-  - component: {fileID: 398663991}
-  m_Layer: 0
-  m_Name: GameManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &398663989
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 398663988}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ac541cff07a687478c86375aa705695, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: {fileID: 1242956119}
-  loginFail: {fileID: 2125161469}
-  sceneName: Scene_00_MainMenu
---- !u!4 &398663990
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 398663988}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &398663991
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 398663988}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52ab63c1d3e930d44ad71bba4fde7d82, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  idText: 
 --- !u!1 &399337871
 GameObject:
   m_ObjectHideFlags: 0
@@ -587,7 +526,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &581808869
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1211,6 +1150,121 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Padding: {x: -8, y: -5, z: -8, w: -5}
   m_Softness: {x: 0, y: 0}
+--- !u!1 &1025781721
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1025781723}
+  - component: {fileID: 1025781722}
+  m_Layer: 0
+  m_Name: HTTPManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1025781722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025781721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8246e42f3dd82c42be38b37d2a2795c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UsingSessionCookie: 0
+  id: 
+  pw: 
+  courseCodeCode: 
+  courseContentCode: 
+  recentlyEnrolledCourseId:
+    recently_enrolled_course_id: -1
+  courseLearningContentId: 
+  lessonItemId: 
+  lessonSubitemId: 
+  startLearning:
+    is_deleted: 
+    code: 
+    latest_student_attendance_log:
+      course_id: 
+      student_user_idx: 
+      lesson_subitem_required_learning_time_in_seconds: 
+      lesson_item_title: 
+      lesson_subitem_id: 
+      last_modified_date: 
+      lesson_id: 
+      lesson_subitem_title: 
+      course_learning_content_id: 
+      lesson_title: 
+      total_learning_time_in_seconds: 
+      registered_date: 
+      lesson_item_id: 
+      timestamp: 
+    last_modified_date: 
+    current_student_attendance_log:
+      course_id: 
+      lesson_item_student_attendance_status_code: 
+      student_user_idx: 
+      lesson_subitem_id: 
+      last_modified_date: 
+      lesson_id: 
+      course_learning_content_id: 
+      lesson_student_attendance_status_code: 
+      total_learning_time_in_seconds: 
+      registered_date: 
+      lesson_subitem_student_attendance_status_code: 
+      lesson_item_id: 
+      timestamp: 
+    id: 
+    registered_date: 
+    title: 
+    student_attendance:
+      status_code: 
+      student_user_idx: 
+      student_user_id: 
+      registered_from_country: 
+      last_modified_date: 
+      is_manually_modified: 
+      last_modified_by_user_idx: 
+      last_modified_from_device_type_code: 
+      course_learning_content_id: 
+      status_updated_date: 
+      item_list: []
+      registered_from_ip_address: 
+      course_learning_content_type_code: 
+      lesson_title: 
+      registered_by_user_idx: 
+      last_modified_from_ip_address: 
+      registered_from_device_type_code: 
+      total_learning_time_in_seconds: 
+      registered_date: 
+      course_learning_content_title: 
+      learning_progress: 
+      last_modified_from_country: 
+      course_learning_content_attendance_count: 
+    is_available: 
+--- !u!4 &1025781723
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025781721}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1242956117
 GameObject:
   m_ObjectHideFlags: 0
@@ -1387,6 +1441,57 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1242956117}
   m_CullTransparentMesh: 1
+--- !u!1 &1550565440
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1550565442}
+  - component: {fileID: 1550565441}
+  m_Layer: 0
+  m_Name: LoginAPI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1550565441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1550565440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95ff341d7085f6844aac5107ec2f62a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 
+  pw: 
+  courseCodeCode: 20240006
+  courseContentCode: 2024000601
+  input_ID: {fileID: 1242956119}
+  input_PW: {fileID: 581808870}
+  ErrorMsg: {fileID: 2125161469}
+--- !u!4 &1550565442
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1550565440}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1578263054
 GameObject:
   m_ObjectHideFlags: 0
@@ -1722,9 +1827,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 398663989}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: Login
+      - m_Target: {fileID: 1550565441}
+        m_TargetAssemblyTypeName: LoginRestAPI, Assembly-CSharp
+        m_MethodName: LoginAPI
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

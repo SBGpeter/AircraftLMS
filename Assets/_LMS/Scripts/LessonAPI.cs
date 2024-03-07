@@ -34,15 +34,4 @@ public class LessonAPI : MonoBehaviour
     {
         X2R.HTTP.HTTPManager.Instance.OnStartLearning(Content_id, x, x + 2);
     }
-
-    //public void OnButtonLessonA01(int content_id, int x) 
-    //{
-    //    X2R.HTTP.HTTPManager.Instance.OnStartLearning(content_id, x, x + 2); 
-    //}
-    ////J47
-    //public void OnButtonLessonA02(int content_id, int x) 
-    //{ 
-    //    X2R.HTTP.HTTPManager.Instance.OnStartLearning(content_id, x, x + 2); 
-    //}
-    ////Bypass
 }

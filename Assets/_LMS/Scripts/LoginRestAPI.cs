@@ -13,6 +13,7 @@ public class LoginRestAPI : MonoBehaviour
 
     public TMP_InputField input_ID, input_PW;
 
+    public GameObject login;
     public GameObject ErrorMsg;
 
     Scene scene;
@@ -45,6 +46,7 @@ public class LoginRestAPI : MonoBehaviour
             }
             else
             {
+                login.SetActive(false);
                 ErrorMsg.SetActive(true);
             }
         }

@@ -7,11 +7,11 @@ public class LessonAPI : MonoBehaviour
     static LessonAPI instance;
     private void Awake()
     {
-        //if (instance != null)
-        //{
-        //    Destroy(this);
-        //    return;
-        //}
+        if (instance != null)
+        {
+            Destroy(this);
+            return;
+        }
 
         instance = this;
         DontDestroyOnLoad(this);

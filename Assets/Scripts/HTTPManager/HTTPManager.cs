@@ -23,9 +23,7 @@ namespace X2R.HTTP
             getCourseLearningContentList,
 #endif
             startLearning,
-#if UPDATE_LEARNING_PROGRESS
             updateLearningProgress,
-#endif
         }
 
         public static readonly Uri uri_login = new Uri($"https://bukedu.vsquare.cc/api/user/login");
@@ -53,17 +51,18 @@ namespace X2R.HTTP
             }
         }
 
-        [Header ("[2] startLearning (학습 시작)")]                public string courseLearningContentId;
+        [Header ("[2] startLearning (학습 시작)")]                
+        public string courseLearningContentId;
         public string lessonItemId; // 과목 학습 콘텐츠 ID ...... 지정을 안하면 처음부터 시작한다 (중간부터 시작할때) 
         public string lessonSubitemId; // 학습 회차 ID        
         public StartLearning startLearning; // 학습 회차 페이지 ID        
 
-#if UPDATE_LEARNING_PROGRESS
+//#if UPDATE_LEARNING_PROGRESS
         [Header("[3] updateLearningProgress (학습 진도 업데이트)")]        
         public string update_rate = "1"; // 비율, default 1
         private string update_bookmark; // 상태값 리스트
         public UpdateLearningProgress updateLearningProgress;
-#endif
+//#endif
 
 #if COURSE_LEARNING_CONTENTLIST
         [Header("[*4] getCourseLearningContentList (과목 학습 콘텐츠 목록 조회)")]
@@ -120,7 +119,6 @@ namespace X2R.HTTP
         private void Start()
         {
             CookieJar.Clear();
-            DontDestroyOnLoad(this);
         }
 
         public void Init(string _id, string _pw, string _courseCodeCode, string _courseContentCode, OnRecivePacket callback)
@@ -151,6 +149,11 @@ namespace X2R.HTTP
                 Debug.LogError ("로그인 정보를 확인하세요.");
                 return false;
             }
+
+            courseLearningContentId = content_id.ToString();
+            lessonItemId = item_id.ToString();
+            lessonSubitemId = sub_id.ToString();
+
             startLearning.send(recentlyEnrolledCourseId.recently_enrolled_course_id.ToString (),
                                 content_id.ToString (),
                                 item_id.ToString (),
@@ -159,26 +162,43 @@ namespace X2R.HTTP
             return true;
         }
 
+        public bool OnUpdateLearning()
+        {
+            if (IsRedayToLearning == false)
+            {
+                Debug.LogError("로그인 정보를 확인하세요.");
+                return false;
+            }
+            updateLearningProgress.send(courseLearningContentId,
+            lessonItemId,
+            lessonSubitemId,
+            startLearning.GetTimeStamp,
+            update_rate,
+            update_bookmark);
+
+            return true;
+        }
+
 
         public void Update()
         {
-            //if (Input.GetKeyDown(KeyCode.Alpha1))
-            //{
-            //    login.send(id, pw);
-            //}
+            if (Input.GetKeyDown(KeyCode.Alpha1))
+            {
+                login.send(id, pw);
+            }
+            
+            if (Input.GetKeyDown(KeyCode.Alpha2))
+            {
+                if (IsRedayToLearning)
+                {
+                    startLearning.send(recentlyEnrolledCourseId.recently_enrolled_course_id.ToString (),
+                    courseLearningContentId,
+                    lessonItemId,
+                    lessonSubitemId);
+                }
+            }
 
-            //if (Input.GetKeyDown(KeyCode.Alpha2))
-            //{
-            //    if (IsRedayToLearning)
-            //    {
-            //        startLearning.send(recentlyEnrolledCourseId.recently_enrolled_course_id.ToString (),
-            //        courseLearningContentId,
-            //        lessonItemId,
-            //        lessonSubitemId);
-            //    }
-            //}
-
-#if UPDATE_LEARNING_PROGRESS
+//#if UPDATE_LEARNING_PROGRESS
             if (Input.GetKeyDown(KeyCode.Alpha3))
             {
                 if (IsRedayToLearning)
@@ -191,7 +211,7 @@ namespace X2R.HTTP
                     update_bookmark);
                 }
             }
-#endif
+//#endif
 
 
 #if COURSE_LEARNING_CONTENTLIST
@@ -284,12 +304,10 @@ namespace X2R.HTTP
                         {
                             startLearning.recive(json_body);
                         }
-#if UPDATE_LEARNING_PROGRESS
                         else if (true == uri.Contains(API.updateLearningProgress.ToString()))
                         {
                             updateLearningProgress.recive(json_body);
                         }
-#endif
                         else
                         {
                             Debug.LogError("Not Define PacketType");

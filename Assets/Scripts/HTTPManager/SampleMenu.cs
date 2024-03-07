@@ -34,4 +34,5 @@ public class SampleMenu : MonoBehaviour
     public void OnButtonLessonA07() { X2R.HTTP.HTTPManager.Instance.OnStartLearning(8, 15, 17); }
 
     public void OnButtonLessonB01() { X2R.HTTP.HTTPManager.Instance.OnStartLearning(12, 16, 18); }
+    public void OnButtonUpdate() { X2R.HTTP.HTTPManager.Instance.OnUpdateLearning(); }
 }

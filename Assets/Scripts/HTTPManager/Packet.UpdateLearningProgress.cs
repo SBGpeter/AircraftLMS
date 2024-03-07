@@ -7,7 +7,6 @@ using UnityEngine;
 
 namespace X2R.HTTP
 {
-#if UPDATE_LEARNING_PROGRESS
     [System.Serializable]
     public class UpdateLearningProgress
     {
@@ -48,5 +47,4 @@ namespace X2R.HTTP
             //CopyTo(HTTPManager.JsonToOject<UpdateLearningProgress>(text));
         }
     }
-#endif
 }

@@ -45,7 +45,7 @@ namespace X2R.HTTP
             request.UploadSettings.UploadStream = new MultipartFormDataStream()
                 .AddField("id", id)
                 .AddField("password", pw)
-                .AddField("stayLoggedIn", "0");
+                .AddField("stayLoggedIn", "1");//세션유지용
 
             request.Send();
 

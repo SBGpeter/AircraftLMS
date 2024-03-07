@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CallTimeStamp : MonoBehaviour
 {
-    public void Teste()
+    public void TimeStamp()
     {
         LessonAPI.Instance.OnUpdate();
     }

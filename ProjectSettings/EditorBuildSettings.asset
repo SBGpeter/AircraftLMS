@@ -20,7 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Scene_03_Cutout.unity
     guid: dfa4438f799af49c7b6181f6d2ba2f14
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Scenes/Scene_04_Assembly.unity
     guid: ca3c947eee0fd4349869852d388ffd55
   m_configObjects: {}

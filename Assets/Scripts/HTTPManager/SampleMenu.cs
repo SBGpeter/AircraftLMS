@@ -2,6 +2,7 @@ using Best.HTTP.Shared;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static X2R.HTTP.HTTPManager;
 
 public class SampleMenu : MonoBehaviour
 {
@@ -15,16 +16,21 @@ public class SampleMenu : MonoBehaviour
         X2R.HTTP.HTTPManager.Instance.Init(id, pw, courseCodeCode, courseContentCode, OnRecivePacket);
     }
 
-    public void OnRecivePacket(bool succeed, string error_code, string message)
+    public void OnRecivePacket(API api, bool succeed, string error_code, string message)
     {
-        Debug.Log($"{succeed}/{error_code}/{message}");
+        Debug.Log($"{api}:{succeed}/{error_code}/{message}");
+
+        if (api == API.getRecentlyEnrolledCourseId && succeed == true)
+        {
+            Debug.Log("(수강중인 과목+)로그인 성공");
+        }
     }
     public void OnButtonLogin()
     {
         X2R.HTTP.HTTPManager.Instance.OnLogin();
     }
 
-    public void OnButtonLessonA01() { X2R.HTTP.HTTPManager.Instance.OnStartLearning(8,8,10); }
+    public void OnButtonLessonA01() { X2R.HTTP.HTTPManager.Instance.OnStartLearning(8, 8, 10); }
     public void OnButtonLessonA02() { X2R.HTTP.HTTPManager.Instance.OnStartLearning(8, 10, 12); }
     public void OnButtonLessonA03() { X2R.HTTP.HTTPManager.Instance.OnStartLearning(8, 11, 13); }
 

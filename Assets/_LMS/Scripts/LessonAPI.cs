@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class LessonAPI : MonoBehaviour
 {
+    public int Content_id;
+
     static LessonAPI instance;
     private void Awake()
     {
@@ -28,8 +30,19 @@ public class LessonAPI : MonoBehaviour
         X2R.HTTP.HTTPManager.Instance.OnUpdateLearning();
     }
 
-    public void OnButtonLessonA01() { X2R.HTTP.HTTPManager.Instance.OnStartLearning(19, 52, 54); }
-    //J47
-    public void OnButtonLessonA02() { X2R.HTTP.HTTPManager.Instance.OnStartLearning(19, 84, 86); }
-    //Bypass
+    public void OnButtonLesson(int x)
+    {
+        X2R.HTTP.HTTPManager.Instance.OnStartLearning(Content_id, x, x + 2);
+    }
+
+    //public void OnButtonLessonA01(int content_id, int x) 
+    //{
+    //    X2R.HTTP.HTTPManager.Instance.OnStartLearning(content_id, x, x + 2); 
+    //}
+    ////J47
+    //public void OnButtonLessonA02(int content_id, int x) 
+    //{ 
+    //    X2R.HTTP.HTTPManager.Instance.OnStartLearning(content_id, x, x + 2); 
+    //}
+    ////Bypass
 }

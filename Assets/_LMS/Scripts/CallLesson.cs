@@ -4,13 +4,18 @@ using UnityEngine;
 
 public class CallLesson : MonoBehaviour
 {
-    public void J47()
+    public void SelectContent(int code)
     {
-        LessonAPI.Instance.OnButtonLessonA01();
+        LessonAPI.Instance.OnButtonLesson(code);
     }
 
-    public void Bypass()
-    {
-        LessonAPI.Instance.OnButtonLessonA02();
-    }
+    //public void J47()
+    //{
+    //    LessonAPI.Instance.OnButtonLessonA01(Content_id, 52);
+    //}
+
+    //public void Bypass()
+    //{
+    //    LessonAPI.Instance.OnButtonLessonA02(Content_id, 84);
+    //}
 }

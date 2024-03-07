@@ -7,7 +7,14 @@ public class LessonAPI : MonoBehaviour
     static LessonAPI instance;
     private void Awake()
     {
+        //if (instance != null)
+        //{
+        //    Destroy(this);
+        //    return;
+        //}
+
         instance = this;
+        DontDestroyOnLoad(this);
     }
 
     public static LessonAPI Instance
@@ -15,14 +22,10 @@ public class LessonAPI : MonoBehaviour
         get { return instance; }
     }
 
-    private void Start()
-    {
-        DontDestroyOnLoad(this);    
-    }
-
     public void OnUpdate()
     {
         Debug.Log("≈∏¿”Ω∫≈∆«¡");
+        X2R.HTTP.HTTPManager.Instance.OnUpdateLearning();
     }
 
     public void OnButtonLessonA01() { X2R.HTTP.HTTPManager.Instance.OnStartLearning(19, 52, 54); }
